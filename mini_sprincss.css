@@ -1,0 +1,128 @@
+/* Estilos mejorados para CV de Genesis Raquel Inca Villacrés */
+
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background: #283593;
+  color: white;
+  padding: 40px 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #bbdefb;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* TITULOS */
+h2 {
+  font-size: 1.6rem;
+  color: #1a237e;
+  margin-bottom: 15px;
+  border-left: 5px solid #3f51b5;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #303f9f;
+}
+
+/* LISTAS Y TEXTO */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* SECCIONES */
+section {
+  margin-bottom: 40px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a237e;
+  color: white;
+  margin-top: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .avatar {
+    width: 110px;
+    height: 110px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+  }
+
+  main {
+    padding: 20px;
+  }
+}
